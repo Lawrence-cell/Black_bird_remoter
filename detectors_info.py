@@ -1,0 +1,110 @@
+mod_lists = [
+    'V.29', #高位
+    '128 QAM',
+    'Pure Carrier',
+    '4PAM',
+    'OOK',
+    'Machine Morse',
+    'Manual Morse',
+    'Analog FM',
+    'USB',
+    'LSB',
+    'AM DSBSC',
+    'AM',
+    '256 QAM',
+    '64 QAM',
+    '32 QAM',
+    '16 QAM',
+    'PI/4 QAM',
+    'QPSK',
+    '16 Level FSK',
+    '8 Level PSK',
+    'BPSK',
+    '8 Level FSK',
+    '4 Level FSK',
+    '3 Level FSK',
+    'FSK',
+    'MSK',
+    'Noise',
+    'Unkonwn Digital',
+    'Unknown' #低位
+]
+
+
+detectors_name_lists = [
+    '01_FM',
+    '02 GSM',
+    '03 CDMA',
+    '04 TD LTE MOBILE',
+    '04 TD LTE TELECOM',
+    '04 TD LTE UNICOM',
+    '05 FDD LTE TELECOM',
+    '05 FDD LTE UNICOM',
+    '06 Digital broadcast DVB',
+    '06 Digital TV Transmitter',
+    '07 Aviation mobile FM radio',
+    '07 DSB',
+    '08 Open Circuit TV',
+    '09 DAB',
+    '10 Wireless Data Transmission System',
+    '11 Digital Trunking System (GoTa)',
+    '12 TD SCDMA',
+    '13 PHS',
+    '14 radar',
+    '15 WLAN',
+    '16 carplay signal',
+    '17 mobile wireless video',
+    '18 lora',
+    '19 wideband digital groop',
+    '20 2G',
+    '21 fixed wireless video transmit',
+    '22 RFID',
+    '23 Wireless MicroPhone_2',
+    '23 Wireless MicroPhone_1',
+    '24 5_8GHz WLAN device',
+    '[waveband1] lora',
+    '[waveband2] GSM'  
+]
+
+detectors_bw_config = [
+    [256e3,0.1,1.5,(87e6,108e6)],
+    [200e3,0.5,1.5,(885e6,915e6),(930e6,960e6),(1805e6,1850e6)],
+    [3e6,0.5,1.5,(825e6,835e6),(870e6,880e6),(1935e6,1940e6),(2125e6,2300e6)],
+    [20e6,0.5,1.5,(1880e6,1900e6),(1885e6,1915e6),(2320e6,2370e6),(2575e6,2635e6)],
+    [20e6,0.5,1.5,(2635e6,2655e6)],
+    [20e6,0.5,1.5,(2300e6,2320e6),(2555e6,2575e6)],
+    [20e6,0.35,1.5,(1765e6,1780e6),(1860e6,1875e6),(1920e6,1940e6),(2110e6,2130e6)],
+    [20e6,0.5,1.5,(909e6,915e6),(1845e6,1860e6),(2130e6,2155e6)],
+    [80e3,0.1,1.5,(170e6,245e6)],
+    [8e6,0.5,1.5,(48.5e6,72.5e6),(76e6,84e6),(167e6,223e6),(470e6,566e6),(606e6,798e6)],
+    [25e3,0.3,2,(108e6,156e6)],
+    [20e3,0.5,2.5,(118e6,136.975e6)],
+    [8e6,0.5,1.5,(167e6,223e6),(470e6,566e6),(606e6,798e6)],
+    [1.536e6,0.5,1.5,(167e6,223e6)],
+    [25e3,0.5,1.5,(223.025e6,235e6)],
+    [1.25e6,0.5,1.5,(806e6,821e6),(851e6,866e6)],
+    [1.6e6,0.5,1.5,(1.88e9,1.9e9),(2.01e9,2.025e9)],
+    [300e3,0.5,1.5,(1.9e9,1.915e9)],
+    [25e3,0.3,2,(137e6,167e6)],
+    [100e3,0.1,1.5,(335e6,344e6)],
+    [125e3,0.2,1.5,(470e6,510e6),(779e6,787e6)],
+    [20e6,0.5,2.5,(1.447e9,1.467e9)],
+    [25e6,0.5,1.5,(1.71e9,1.735e9),(1.805e9,1.83e9)],
+    [50e6,0.5,1.5,(5.725e9,5.85e9)],
+    [10e6,0.5,2.5,(5.7875e9,5.7925e9),(5.7975e9,5.805e9)],
+    [96e3,0.5,1.5,(690e6,900e6)],
+    [25e3,0.5,1.5,(690e6,900e6)],
+    [80e6,0.05,1.5,(5.725e9,5.85e9)],
+    [80e6,0.05,1.5,(20,5.85e9)],
+    [80e6,0.05,1.5,(20,5.85e9)],
+    [80e6,0.05,1.5,(20,5.85e9)],
+    [80e6,0.05,1.5,(20,5.85e9)]
+]
+
+
+
+
+
+
+
+
